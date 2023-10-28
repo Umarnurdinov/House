@@ -264,6 +264,7 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding: 20px;
 }
 @media screen and (max-width: 900px) {
   .hero__header2__nav {
@@ -281,4 +282,37 @@ button {
     padding: 30px;
     text-align: center;
   }
+}
+.hero__content img {
+  width: 100%;
+  object-fit: cover;
+}
+.hero__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__content__titles {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.hero__content__title {
+  display: flex;
+  align-items: center;
+}
+.title1-text {
+  display: flex;
+  align-items: center;
+  color: #2d170c;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 126.5%;
+  letter-spacing: -0.21px;
+}
+.hero__content__title img {
+  width: 74.48px;
+  height: 56.24px;
 }
