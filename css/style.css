@@ -420,8 +420,7 @@ button {
   display: flex;
   margin-bottom: 20px;
 }
-.card5 {
-}
+
 .card5__logo {
   color: #000;
   font-family: Museo Sans Cyrl;
@@ -481,5 +480,249 @@ button {
   .hero__title__card2 {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+.hero__center {
+  padding: 20px;
+}
+.hero__center__logo {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__center__nav {
+  max-width: 1552px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.hero__center__nav-link {
+  max-width: 160px;
+  height: 60px;
+  padding: 20px;
+  color: #000;
+  text-align: center;
+  font-family: Museo Sans Cyrl;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__center__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.hero__center__card1 {
+  padding: 15px;
+}
+.card1__img__wrap img {
+  width: 100%;
+}
+.card1__artikul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card1__artikul-text {
+  color: #000;
+  text-align: right;
+  font-family: Museo Sans Cyrl;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.card1__title {
+  width: 100%;
+}
+.card1__title-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+}
+.card1__title__size {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card1__title__size-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 5px;
+}
+.card1__title__square {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card1__title__square-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 5px;
+}
+.card1__title__capacity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card1__title__capacity-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 5px;
+}
+.card1__title__varanty {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card1__title__varanty-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 5px;
+}
+.card__footer__titles {
+  display: flex;
+  flex-direction: column;
+}
+.card1__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card1__footer__prices {
+  display: flex;
+}
+.card1__footer__oldprice {
+  color: #bbb;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+  margin-bottom: 0;
+}
+.card1__footer__sale {
+  color: #2b150d;
+  font-family: Museo Sans Cyrl;
+  font-size: 11.021px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-flex;
+  padding: 4.574px 5.511px;
+  align-items: flex-start;
+  gap: 7.872px;
+  background: #ffd634;
+  margin-bottom: 0;
+}
+.card1__footer__newprice {
+  color: #ff3838;
+  font-family: Museo Sans Cyrl;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.price {
+  margin: 0;
+}
+.card1__footer-btn {
+  color: #2b150d;
+  text-align: center;
+  font-family: Museo Sans Cyrl;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 131px;
+  height: 51px;
+  background: #ffd634;
+  border-radius: 4px;
+}
+.hero__center__card2 {
+  padding: 15px;
+}
+.hero__center__card3 {
+  padding: 15px;
+}
+.hero__center__card4 {
+  padding: 15px;
+}
+.hero__center__card5 {
+  padding: 15px;
+}
+.hero__center__card6 {
+  padding: 15px;
+}
+.hero__center__card7 {
+  padding: 15px;
+}
+.hero__center__card8 {
+  padding: 15px;
+}
+@media screen and (max-width: 1152px) {
+  .hero__center__card4 {
+    display: none;
+  }
+  .hero__center__card8 {
+    display: none;
+  }
+  .hero__center__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .hero__center__card3 {
+    display: none;
+  }
+  .hero__center__card6 {
+    display: none;
+  }
+  .hero__center__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 715px) {
+  .hero__center__card2 {
+    grid-row: 3;
+  }
+  .hero__center__card5 {
+    grid-row: 4;
+  }
+  .hero__center__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .hero__center__nav {
+    display: none;
+  }
+  .hero__center__logo {
+    text-align: center;
   }
 }
