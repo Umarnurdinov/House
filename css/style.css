@@ -316,3 +316,170 @@ button {
   width: 74.48px;
   height: 56.24px;
 }
+.hero__title {
+  padding: 20px;
+}
+.hero__title-logo {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__title__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px;
+}
+.hero__title__card1 {
+  padding: 20px;
+  grid-row: 1/4;
+  border-radius: 6px;
+  background: #fff7d9;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card1-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card1__texts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card1__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.card1__nav2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.card1__nav-link {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__title__card2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff7d9;
+}
+.hero__title__card2 img {
+  width: 163px;
+  height: 96px;
+  object-fit: cover;
+}
+.card2-text {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card2__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card2__nav-link {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card2__content {
+  display: flex;
+  flex-direction: column;
+}
+.hero__title__card5 {
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff7d9;
+  display: flex;
+  margin-bottom: 20px;
+}
+.card5 {
+}
+.card5__logo {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.card5__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card5__nav-link {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__title__card6 {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff7d9;
+  display: flex;
+}
+.card-5-6 {
+  grid-column: 3;
+  grid-row: 1/4;
+  gap: 50px;
+}
+@media screen and (max-width: 1150px) {
+  .card-5-6 {
+    display: none;
+  }
+  .hero__title__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .hero__title__card1 {
+    display: none;
+  }
+  .hero__title__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hero__title__card2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
