@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: "Red Hat Display";
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+.header {
+  padding: 10px;
+  background: #000;
+}
+.header__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__location {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__location1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header__location2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header__nav-link {
+  color: #fff;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (max-width: 1004px) {
+  .header__nav {
+    display: none;
+  }
+  .header__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 590px) {
+  .header__location2 {
+    display: none;
+  }
+}
