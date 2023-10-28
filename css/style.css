@@ -76,3 +76,158 @@ button {
     display: none;
   }
 }
+.hero {
+  padding: 20px;
+  background: #f9f8f3;
+}
+.hero__header {
+  display: flex;
+  align-items: center;
+}
+.hero__header__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.hero__header__content__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero__header__content__logo-text {
+  text-align: center;
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__header__content__nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.hero__header__content__nav__text {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hero__header__content__nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hero__header__content__nav__search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+}
+.hero__header__content__nav__search-text {
+  color: #818181;
+  font-family: Museo Sans Cyrl;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding: 10px;
+}
+.hero__header__content__nav__search-btn {
+  color: #000;
+  text-align: center;
+  font-family: Museo Sans Cyrl;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 156px;
+  height: 45px;
+  background: #ffd634;
+}
+.hero__header__content__contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero__header__content__contacts__timework-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+}
+.hero__header__content__contacts__numbers {
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 5px;
+}
+.hero__header__content__email {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero__header__content__email-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #000;
+  font-family: Museo Sans Cyrl;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hero__header__content__email-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Museo Sans Cyrl;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 223px;
+  height: 44px;
+  background: #ff7a1b;
+  border-radius: 6px;
+}
+@media screen and (max-width: 1100px) {
+  .hero__header__content__logo {
+    display: none;
+  }
+  .hero__header__content__contacts {
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero__header__content__email {
+    display: none;
+  }
+  .hero__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__header__content__nav__text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
