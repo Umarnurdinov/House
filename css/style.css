@@ -737,9 +737,9 @@ button {
 .hero__center {
   padding: 20px;
 }
-/* .hero__center-2 {
+.hero__center-2 {
   padding: 20px;
-} */
+}
 .hero__center__logo {
   color: #000;
   font-family: Museo Sans Cyrl;
