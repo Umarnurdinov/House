@@ -1911,11 +1911,20 @@ button {
   justify-content: center;
   text-align: center;
 }
+@media screen and (max-width: 1600px) {
+  .footer__center__content__secondchild__nav-texts-2 {
+    display: none;
+  }
+}
 @media screen and (max-width: 1000px) {
   .footer__end__content {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
     padding: 0 80px;
+  }
+  .footer__center__content__secondchild__nav-texts-2 {
+    display: flex;
+    justify-content: center;
   }
 }
